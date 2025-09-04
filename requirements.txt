@@ -1,0 +1,6 @@
+dotenv
+google-genai
+youtube-transcript-api
+pydantic
+fastapi
+uvicorn

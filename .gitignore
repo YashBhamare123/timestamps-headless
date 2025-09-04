@@ -1,0 +1,5 @@
+.*
+!.gitignore
+__pycache__
+async_test.py
+timestamps.py

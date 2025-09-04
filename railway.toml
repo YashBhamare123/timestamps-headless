@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+preDeployCommand = ["echo deploying"]
+startCommand = "python generate_timestamps.py"
+healthcheckPath = ""
+healthcheckTimeout = 100
+restartPolicyType = "never"
